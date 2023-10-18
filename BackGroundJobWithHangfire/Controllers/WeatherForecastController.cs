@@ -11,15 +11,11 @@ namespace BackGroundJobWithHangfire.Controllers
     [Route("[controller]/[action]")]
     public class WeatherForecastController : ControllerBase
     {
-        
 
-       
         //install hangfire 
         //add it's servese in program 
         //add connection string and then add it with it's servese in program 
         //then use hangfire in endpoint or in program "as your need "
-       
-
 
         [HttpGet(Name = "TestBackgroundJob")]
         public IActionResult TestBackgroundJob()
